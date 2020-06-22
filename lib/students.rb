@@ -13,9 +13,9 @@ def average_student_gpa
 end
 
 def total_tardies_for_all_students
-  "COUNT(tardies) FROM students"
+  "SELECT COUNT(*) FROM students WHERE get_via_redirect"
 end
 
 def average_gpa_for_9th_grade
-  ""
+s
 end
